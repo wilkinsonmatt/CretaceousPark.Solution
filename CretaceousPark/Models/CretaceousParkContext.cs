@@ -9,6 +9,7 @@ namespace CretaceousPark.Models
     {
     }
     
+    
     protected override void OnModelCreating(ModelBuilder builder)
     {
       builder.Entity<Animal>()

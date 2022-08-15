@@ -110,6 +110,7 @@ public async Task<List<Animal>> Get(string species, string gender, string name, 
       {
         return NotFound();
       }
+      
 
       _db.Animals.Remove(animal);
       await _db.SaveChangesAsync();

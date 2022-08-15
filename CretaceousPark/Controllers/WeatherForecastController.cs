@@ -23,6 +23,7 @@
 //             _logger = logger;
 //         }
 
+
 //         [HttpGet]
 //         public IEnumerable<WeatherForecast> Get()
 //         {
