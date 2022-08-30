@@ -118,6 +118,8 @@ public async Task<List<Animal>> Get(string species, string gender, string name, 
       return NoContent();
     }
 
+
+
     private bool AnimalExists(int id)
     {
       return _db.Animals.Any(e => e.AnimalId == id);
